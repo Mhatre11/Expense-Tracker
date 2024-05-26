@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container h1 {
+  margin-bottom: 50px;
+}
+.form-floating {
+  width: 40rem;
+}
+
+#submit {
+  width: 40rem;
+  margin-top: 1.5rem;
+}
+
+.number-input::-webkit-outer-spin-button,
+.number-input::-webkit-inner-spin-button {
+  /* Hide the arrows */
+  display: none;
+}
